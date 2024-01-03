@@ -3,4 +3,4 @@
 
 <p>•<a href="https://josiasgneto.github.io/html-css/Website-Android/android.html">Android Website</a></p> <br>
 <p>•<a href="https://josiasgneto.github.io/html-css/Website-Cordel/index.html">Cordel Website</a></p> <br>
-<p>•<a href="https://josiasgneto.github.io/html-css/Website-Landing%20Page/index.html">Responsive Website</a></p>
+<p>•<a href="https://josiasgneto.github.io/html-css/Website-Landing-Page/index.html">Landing Page - Responsive</a></p>
