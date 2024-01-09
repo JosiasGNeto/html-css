@@ -109,8 +109,9 @@ main > p{
 
 h2{
     color: var(--color01);
-    font-size: 2em;
+    font-size: 1.8em;
     text-shadow: 1.5px 1.5px 1px var(--shadows);
+    text-align: left;
 }
 
 .sign{
