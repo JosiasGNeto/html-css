@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100px;
+    }
+
+    .main-title{
+        font-size: 1.8em;
+    }
+
+    .pricing{
+        display: flex;
+        flex-direction: column;
+    }
+}

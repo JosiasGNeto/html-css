@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+:root{
+    --color·background: #0c1014;
+    --color·backgorund-nav: #05080a;
+    --color·background-card: #1f262c;
+    --color·backgorund-footer: #05080a;
+    --color·background-nav-a-hover: #d3d3d348;
+    --color·background-cta-a-hover: #d3d3d348;
+    --color·contrast: #cbe300;
+    --color·01: #b5b5b5;
+
+    --font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--color·background);
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0px auto;
+    font-family: var(--font);
+}
+
+.main-title{
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 46px 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color·backgorund-nav);
+    padding: 16px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.header__logo{
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 2px;
+}
+
+.header__nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.2em;
+    gap: 16px;
+}
+
+.header__nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.header__nav a:hover{
+    background-color: var(--color·background-nav-a-hover);
+}
+
+a.header__nav--active{
+    background-color: var(--color·contrast);
+    color: #0c1014;
+    pointer-events: none;
+}
+
+.pricing{
+    display: flex;
+    gap: 16px;
+}
+
+.pricing-plan{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: var(--color·background-card);
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0px 5px 12px -5px black;
+}
+
+.pricing-plan__title{
+    border-bottom: 2px solid var(--color·contrast);
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.pricing-plan p{
+    padding-top: 10px;
+}
+
+.pricing-plan__price{
+    font-size: 1.5em;
+}
+
+.pricing-plan__features{
+    flex-grow: 1;
+    margin: 0px 0px 35px;
+    color: var(--color·01);
+    padding-left: 16px;
+    line-height: 1.8;
+}
+
+.pricing-plan__features li::marker{
+    color: var(--color·contrast);
+}
+
+.pricing-plan__cta{
+    background-color: var(--color·contrast);
+    border-radius: 6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+    padding: 16px 10px;
+}
+
+.pricing-plan__cta:hover{
+    background-color: var(--color·background-cta-a-hover);
+    color: white;
+    outline:1px solid white;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: var(--color·backgorund-footer);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.footer-github{
+    font-weight: bold;
+}
+
+.footer-github a{
+    text-decoration: none;
+    color: var(--color·contrast);
+}
