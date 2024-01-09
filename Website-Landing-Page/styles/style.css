@@ -25,13 +25,21 @@
 }
 
 body{
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
     font-family: var(--font02);
-    background-color: var(--color04);
+    background-image: linear-gradient(to top, var(--color03), var(--color05));
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
     border-bottom: 2px solid var(--shadows);
@@ -72,6 +80,7 @@ header a:hover{
 }
 
 a{
+    color: var(--color02);
     font-weight: bold;
     text-decoration: none;
 }
@@ -84,8 +93,9 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(to top, var(--color03), var(--color05));
     padding: 0px 50px;
+    max-width: 960px;
+    margin: auto;
 }
 
 .left-side > p{
@@ -103,7 +113,7 @@ h2{
     text-shadow: 1.5px 1.5px 1px var(--shadows);
 }
 
-h2#sign{
+.sign{
     color: var(--color03);
 }
 
@@ -130,7 +140,7 @@ input#send-button{
 
 input#send-button:hover{
     cursor: pointer;
-    border: 2px solid var(--color02);
+    outline: 1px solid var(--color02);
     background-color: var(--color04);
 
     transition: 0.1s;

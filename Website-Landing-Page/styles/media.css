@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 768px) {
+    body{
+        background-color: white;
+        background-image: none;
+    }
+
     header{
         display: flex;
         flex-direction: column;
@@ -17,6 +22,9 @@
         padding-top: 20px;
         text-align: center;
         text-align: justify;
+        background-image: linear-gradient(to top, var(--color03), var(--color05));
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .left-side > p{
