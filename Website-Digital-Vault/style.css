@@ -12,6 +12,10 @@
     --font-inter: 'Inter', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     position: relative;
     font-family: var(--font-inter);
@@ -438,18 +442,18 @@ img{
     transform: rotate(45deg);
 }
 
-.back-top a{
-    background-color: var(--primary-color);
+.gotop-btn{
     position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 30px;
-    height: 30px;
+    width: 2.5rem;
+    height: 2.5rem;
+    bottom: 2.5rem;
+    right: 3rem;
+    background-color: var(--primary-color);
     border-radius: 50%;
-    margin: 1rem;
-    text-align: center;
+
     text-decoration: none;
-    font-size: 1.2rem;
-    color: white;
-    z-index: 1;
+    text-align: center;
+    line-height: 3.2rem;
+    color: var(--color-light);
+    font-size: 1.5rem;
 }
