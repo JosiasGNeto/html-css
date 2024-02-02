@@ -26,6 +26,8 @@ body{
     background-image: 
     radial-gradient(circle at left top, rgb(142 173 213 / 0.3), transparent 400px),
     radial-gradient(circle at right center, rgb(142 173 213 / 0.3), transparent 400px);
+
+    overflow-x: hidden;
 }
 
 .content-wrapper-center{
@@ -456,4 +458,6 @@ img{
     line-height: 3.2rem;
     color: var(--color-light);
     font-size: 1.5rem;
+
+    z-index: 1;
 }
