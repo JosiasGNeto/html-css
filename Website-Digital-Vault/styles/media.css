@@ -1,0 +1,120 @@
+@container commentCard (min-width: 42.187em){
+    .comment_card{
+        flex-direction: row;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 46.25em){
+    body{
+        text-align: left;
+    }
+
+    h1{
+        font-size: 3.625rem;
+    }
+    
+    h2{
+        font-size: 2.875rem;
+    }
+
+    .header{
+        align-items: center;
+    }
+
+    .menu-btn,
+    .menu-icon{
+        display: none;
+    }
+
+    .header-menu{
+        position: static;
+        max-height: initial;
+        background-color: initial;
+        margin: 0;
+    }
+
+    .header-menu li{
+        display: inline-block;
+    }
+
+    .header-menu a{
+        padding: 1rem;
+    }
+
+    .contact_image{
+        display: block;
+        text-align: center;
+    }
+
+    .row{
+        gap: 1rem;
+    }
+
+    .row > .md-3{
+        grid-column: span 3;
+    }
+
+    .row > .md-4{
+        grid-column: span 4;
+    }
+
+    .row > .md-6{
+        grid-column: span 6;
+    }
+
+    .row > .md-9{
+        grid-column: span 9;
+    }
+
+    .row > .md-1-6{
+        grid-column: 1 / 7;
+    }
+
+    .row > .md-7-12{
+        grid-column: 7 / 13;
+    }
+
+}
+
+@media screen and (min-width: 80em){
+    .hero_title{
+        margin-bottom: 6.25rem;
+    }
+
+    .row{
+        gap: 3rem;
+    }
+
+    .row > .lg-3{
+        grid-column: span 3;
+    }
+
+    .row > .lg-4{
+        grid-column: span 4;
+    }
+
+    .row > .lg-5{
+        grid-column: span 5;
+    }
+
+    .row > .lg-1-5{
+        grid-column: 1 / 6;
+    }
+
+    .row > .lg-6{
+        grid-column: span 6;
+    }
+
+    .row > .lg-7{
+        grid-column: span 7;
+    }
+
+    .row > .lg-1-7{
+        grid-column: 1 / 8;
+    }
+
+    .row > .lg-8-12{
+        grid-column: 8 / 13;
+    }
+}
